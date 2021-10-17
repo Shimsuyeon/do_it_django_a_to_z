@@ -7,7 +7,7 @@ def index(request):
         request,
         'blog/index.html',
         {
-            'post': posts,
+            'posts': posts,
         }
     )
 def single_post_page(request, pk):
